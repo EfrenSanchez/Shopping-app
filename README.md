@@ -1,4 +1,4 @@
-# Shoping App
+# Shopping App
 
 ## Javascript OOP
 Store app
