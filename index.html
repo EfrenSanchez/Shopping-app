@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootswach -->
+  <link rel="stylesheet" href="https://bootswatch.com/4/simplex/bootstrap.min.css">
+
+  <!-- Custom Css -->
+  <link rel="stylesheet" href="./master.css">
+
+  <!-- favicon -->
+  <link  rel = "icono de acceso directo"  href = "./img/favicon.ico"  type = "image / x-icon"> 
+  <link  rel = "icon"  href = "./img/favicon.ico"  type = "image / x-icon" > 
+
+  <title>Store-App</title>
+</head>
+
+<body>
+  
+  <!-- Navbar -->
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="./img/shopping_basket.png" width="30" height="30" class="d-inline-block align-top"
+        alt="logo">
+      Store-App
+    </a>
+  </nav>
+
+  <!-- Hero -->
+  <div class="container">
+    <!-- Form -->
+    <div class="row pt-5" id="app">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-header">
+            <h4>Add your product</h4>
+          </div>
+          <form id="product-form" class="card-body">
+            <div class="form-group">
+              <input type="text" id="product-name" placeholder="Product name" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="number" id="product-price" step="0.01" placeholder="Product price" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="number" id="product-year" min="1900" step="1" value="2018" class="form-control">
+            </div>
+            <input type="submit" value="Save" class="btn btn-dark btn-block">
+          </form>
+        </div>
+      </div>
+      <!-- Outputs -->
+      <div class="col-md-8" id="product-list"></div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <Script src="./app.js"></Script>
+</body>
+
+</html>
