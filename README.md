@@ -4,7 +4,7 @@
 Store app
 
 ![Screenshot](./docs/capture.png)
-##Check it out > https://efrensanchez.github.io/Basic-OOP/
+## Check it out > https://efrensanchez.github.io/Basic-OOP/
 
 
 ## Requirements
