@@ -1,30 +1,10 @@
 # Shopping App
+Dynamic web.
+HTML injecting into the DOM and the logic app just with vanilla JS
 
-## Javascript OOP
-Store app
 
 ![Screenshot](./docs/capture.png)
-## Check it out > https://efrensanchez.github.io/Basic-OOP/
-
-
-## Requirements
-- Knowledge in HTML and CSS 
-- Bootstrap 4
-- Basic knowledge in JavaScript
+####  🕹️ Demo > https://efrensanchez.github.io/Shopping-app/
 
 
 
-# Get started
-
-## Clone the repository to your machine
-
-You can use git or download it directly from github
-
-![](https://imgur.com/bpHE9K6.png)
-
-Just clone it and run index.html in your browser. Easy
-
-
-## License
-
-MIT
