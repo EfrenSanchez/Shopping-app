@@ -1,6 +1,6 @@
 # Shopping App
 Dynamic web.
-HTML injecting into the DOM and the logic app just with vanilla JS
+HTML injecting into the DOM and the logic app just with vanilla JS, no frameworks
 
 
 ![Screenshot](./docs/capture.png)
